@@ -1,4 +1,4 @@
-import { scentData } from '/scentdata.js'
+import { scentData } from './scentdata.js';
 
 const notesRadio = document.getElementById('notes-radio')
 const getFragranceBtn = document.getElementById('get-fragrance-btn')
