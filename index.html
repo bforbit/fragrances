@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Google tag (gtag.js) -->
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poly:ital@0;1&display=swap" rel="stylesheet">
+   <title>My Fragrance Library</title>
+   <meta name="description"
+      content="My fragrance library presented as an interactive discovery tool by specific perfume notes.">
+</head>
+<body>
+   <header>
+      <div class="header-title">
+         <h1>My Fragrance <br>Library</h1>
+      </div>
+
+      <div class="header-img">
+         <img src="arm.jpg">
+      </div>
+   </header>
+   
+   <main>
+      <div class="text-intro">
+      <h3>Find your next fragrance!</h3>
+      <p>The world of fragrance has allured me for years. It's one of the greatest forms of self-expression. I've been fortunate to have tested a wide range of scents from major brands, from beautiful full-sized bottles to mini samples that help me refine my preferences. With all the vials and bottles in my stock, I assembled a spreadsheet of names and notes as I use them, and I'm thrilled to share with you my perfume library in the form of this interactive webpage.</p>
+      <p>Choose one of the many notes below and click "Get Fragrances." You might find your next scent! The list will grow over time and eventually develop into a more customized experience.</p>
+      </div>
+
+      <div class="container">
+         <div class="notes-radio" id="notes-radio"></div>
+            <div class="buttons">
+            <button class="get-fragrance-btn" id="get-fragrance-btn">Get Fragrances</button>
+            <button class="clear-btn" id="clear-btn">Clear Selection</button>
+            </div>
+      </div>
+   </main>
+   
+   <div class="fragrance-image" id="fragrance-image">
+      <div id="fragrance-image-inner"></div>
+   </div>
+
+   <div class="orbit">
+      version 1.0 // made with &hearts; by <a href="https://bforbit.net">bforbit</a> // 2024.
+   </div>
+   
+   <script src="index.js" type="module"></script>
+   </body>
+   
+   </html>
